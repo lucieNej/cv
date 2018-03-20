@@ -1,0 +1,134 @@
+#page {
+	max-width: 1100px;
+	margin: auto;
+	margin-top: 45px;
+
+}
+nav {
+	width: 100%;
+	display: flex;
+	position: fixed;
+	justify-content: flex-end;
+	background: grey;
+	position: fixed;
+	height: 7%;
+	top: -5px;
+	z-index: 1;
+
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}
+
+
+.container_main {
+	display: flex;
+	flex-direction: column;
+}
+.cont_top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: url(pf.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	opacity: 0.6;
+
+
+}
+
+.me {
+	margin-top: 120px;
+	margin-left:470px;
+	background-size: cover;
+	opacity: 1;
+
+	height: 200px;
+	width: 180px;
+	border-radius: 100%;
+	/*margin-left: 700px;*/
+	border: 2px solid;
+	z-index: 1;
+}
+
+
+nav li {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+nav li a {
+	text-decoration: none;
+	padding-left: 50px;
+	margin-right: 50px;
+	color: white;
+	
+}
+
+/*#container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+
+}
+
+.pic {
+	width: 45em;
+	height: 600px;
+	
+}
+
+.text {
+
+	width: 40em;
+	height: 800px;
+	margin-top: 100px;
+	margin-right: 60px;
+
+}*/
+
+#page {
+	background: #fce7ae;
+	
+	
+}
+
+.aboutme {
+	text-align: center;
+	background: #edd376;
+}
+
+.projets {
+	text-align: center;
+	background: blue;
+}
+
+.contact {
+	text-align: center;
+	background: grey;
+}
+
+.pdf {
+	text-align: center;
+	background: blue;
+}
+
+
+
+	
+footer {
+	display: flex;
+	background: grey;
+	height: 50px;
+	margin-top: -4px;
+}
