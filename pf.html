@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"></link> 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="pf.css">
@@ -12,9 +13,9 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#page">Home</a></li>
-				<li><a href="#aboutme">About me</a></li>
-				<li><a href="#mywork">My work</a></li>
+				<li><a href="#page">Acceuil</a></li>
+				<li><a href="#aboutme">Présentation</a></li>
+				<li><a href="#mywork">Mes projets</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a href="#cc">CV PDF</a></li>
 			</ul>
@@ -31,42 +32,77 @@
 						<h3>Web developpeur junior</h3>
 					</div>
 					<div>
-						<img src="photo.jpg" class="me">
+						<img src="img/photo.jpg" class="me">
 					</div>
 				</div>
 			</div>
 
 
 			<section id="aboutme">
-				<div>
-					<img src="left1.jpeg">
+
+				<div class="image">
+					<img src="img/left1.jpeg">
 				</div>
+
 				<div>
-					<h2>About me</h2>
-					<p class="text">Développeur web junior et fan de fruits et gâteau au chocolat. Dédié à réunir l'art et la science pour construire des interfaces professionnelles et un design innovant. Passionné par le développement web, j'espère pouvoir m'épanouir dans le monde du numérique. Je souhaite continuer de me former et m'investir en parallèle dans des projets innovants (réalisation de sites web ou applications).</p>
+					<h2>Présentation</h2>
+					<p class="text">Développeur web junior et fan de fruits et gâteau au chocolat. Dédiée à réunir l'art et la science pour construire des interfaces professionnelles et un design innovant. Passionnée par le développement web, j'espère pouvoir m'épanouir dans le monde du numérique. Je souhaite continuer de me former et m'investir en parallèle dans des projets innovants (réalisation de sites web ou applications).<br><br>Quand je ne suis pas en ligne, je suis avec ma famille - chercher les articles pour notre maison, essayer une nouvelle recette dans la cuisine, faire du jardinage ou jouer avec des enfants.<br><br>
+					Après mes études à l'école Hôtelière en République Tchèque, j'ai vécu et voyagé autour du monde pendant quelques années sur mon bateau. Depuis 2018, je suis basé dans le sud de la France. J'ai commencé à m'intéresser au développement web, j'ai passé mes cours en ligne sur openclassrom.com, codecademy.com, sololearn.com et maintenant je suis en cours dans l'école numérique "Simplon"</p>
 				</div>
 			</section>
+
+			<canvas></canvas>
 
 			<section id="mywork">
-				<div>
+
+				<div class="details">
 					<h2>Mes projets</h2>
-					<p class="text">Développeur web junior et fan de fruits et gâteau au chocolat. Dédié à réunir l'art et la science pour construire des interfaces professionnelles et un design innovant. Passionné par le développement web, j'espère pouvoir m'épanouir dans le monde du numérique. Je souhaite continuer de me former et m'investir en parallèle dans des projets innovants (réalisation de sites web ou applications).</p>
+					<div>
+						<div>
+							<p>Projet de coopération à Simplon:</p>
+							<a href="http://anulla.eu/nirvana/acceuil/nirvana3.php"><img src="img/nirvana.png"></a>
+						</div>
+						<div>
+							<p>Portfolio de ma copine</p>
+							<a href=""><img src="img/portfolio.png"></a>
+						</div>
+					</div>
 				</div>
-				<div>
-					<img src="right1.jpeg">
+
+				<div class="image">
+					<img src="img/right1.jpeg">
 				</div>
 
 			</section>
 
-
 			<section id="contact">
-				<div>
-					<img src="left2.jpg">
+
+				<div class="image">
+					<img src="img/left2.jpg">
 				</div>
-				<div>
+
+				<div class="details">
 					<h2>Contactez moi</h2>
-					<p class="text">Développeur web junior et fan de fruits et gâteau au chocolat. Dédié à réunir l'art et la science pour construire des interfaces professionnelles et un design innovant. Passionné par le développement web, j'espère pouvoir m'épanouir dans le monde du numérique. Je souhaite continuer de me former et m'investir en parallèle dans des projets innovants (réalisation de sites web ou applications).</p>
+					<div>
+						<div>
+							<img src="img/mail.png">
+							<p class="text">nejezchlebovalucie@gmail.com</p>
+						</div>
+						<div>
+							<img src="img/tel.png">
+							<p>06 34 16 65 47</p>
+						</div>
+						<div>
+							<img src="img/address.png">
+							<p>32 Chemin Caldana 06400 Cannes</p>
+						</div>
+						<div>
+							<img src="img/linked.png">
+							<p><a href="https://www.linkedin.com/in/lucie-nejezchlebova-8b1b1815b/">Linked in</a></p>
+						</div>
+					</div>
 				</div>
+
 			</section>
 
 		</div>
@@ -74,9 +110,10 @@
 			
 		
 	<footer id="cc">
-		 <a href="CVLucieexp.pdf" download>Téléchargez cv en PDF</a>
+		 <a href="lucie.pdf" download>Téléchargez cv en PDF</a>
 	</footer>
 
+	<script type="text/javascript" src="pf.js"></script>
 	
 
 </body>
